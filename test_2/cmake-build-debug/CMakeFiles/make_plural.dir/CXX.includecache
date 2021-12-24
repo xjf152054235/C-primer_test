@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xjf/CLionProjects/test_2/make_plural.cpp
+iostream
+/home/xjf/CLionProjects/test_2/iostream
+string
+/home/xjf/CLionProjects/test_2/string
+

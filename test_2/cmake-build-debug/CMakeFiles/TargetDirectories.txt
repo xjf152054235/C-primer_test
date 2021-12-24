@@ -1,0 +1,11 @@
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/main.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/find_char.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/debug_vector.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/initializer_list.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/make_plural.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/reset.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/myPrint.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/print_main_argv.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/swap_point.dir
+/home/xjf/CLionProjects/test_2/cmake-build-debug/CMakeFiles/edit_cache.dir

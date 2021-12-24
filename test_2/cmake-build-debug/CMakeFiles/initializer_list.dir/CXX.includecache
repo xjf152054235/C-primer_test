@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xjf/CLionProjects/test_2/initializer_list.cpp
+iostream
+/home/xjf/CLionProjects/test_2/iostream
+initializer_list
+/home/xjf/CLionProjects/test_2/initializer_list
+

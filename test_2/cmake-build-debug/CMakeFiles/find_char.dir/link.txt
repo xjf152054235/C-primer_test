@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/find_char.dir/find_char.cpp.o -o find_char 

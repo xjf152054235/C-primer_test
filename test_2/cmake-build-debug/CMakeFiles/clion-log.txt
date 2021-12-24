@@ -1,0 +1,13 @@
+/home/xjf/Soft/clion-2021.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/xjf/CLionProjects/test_2
+    -- src/debug_vector.cpp will be compiled to bin/debug_vector
+    -- src/find_char.cpp will be compiled to bin/find_char
+    -- src/initializer_list.cpp will be compiled to bin/initializer_list
+    -- src/main.cpp will be compiled to bin/main
+    -- src/make_plural.cpp will be compiled to bin/make_plural
+    -- src/myPrint.cpp will be compiled to bin/myPrint
+    -- src/print_main_argv.cpp will be compiled to bin/print_main_argv
+    -- src/reset.cpp will be compiled to bin/reset
+    -- src/swap_point.cpp will be compiled to bin/swap_point
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xjf/CLionProjects/test_2/cmake-build-debug
