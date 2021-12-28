@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/xjf/CLionProjects/test_8/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/xjf/Soft/clion-2021.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/xjf/Soft/clion-2021.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 8_2
-
-# Build rule for target.
-8_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_2
-.PHONY : 8_2
-
-# fast build rule for target.
-8_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/build
-.PHONY : 8_2/fast
-
-#=============================================================================
 # Target rules for targets named 8_1
 
 # Build rule for target.
@@ -141,6 +128,32 @@ depend:
 8_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1.dir/build.make CMakeFiles/8_1.dir/build
 .PHONY : 8_1/fast
+
+#=============================================================================
+# Target rules for targets named 8_4
+
+# Build rule for target.
+8_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_4
+.PHONY : 8_4
+
+# fast build rule for target.
+8_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/build
+.PHONY : 8_4/fast
+
+#=============================================================================
+# Target rules for targets named 8_2
+
+# Build rule for target.
+8_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_2
+.PHONY : 8_2
+
+# fast build rule for target.
+8_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/build
+.PHONY : 8_2/fast
 
 8_1.o: 8_1.cpp.o
 .PHONY : 8_1.o
@@ -190,6 +203,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/8_2.cpp.s
 .PHONY : 8_2.cpp.s
 
+8_4.o: 8_4.cpp.o
+.PHONY : 8_4.o
+
+# target to build an object file
+8_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/8_4.cpp.o
+.PHONY : 8_4.cpp.o
+
+8_4.i: 8_4.cpp.i
+.PHONY : 8_4.i
+
+# target to preprocess a source file
+8_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/8_4.cpp.i
+.PHONY : 8_4.cpp.i
+
+8_4.s: 8_4.cpp.s
+.PHONY : 8_4.s
+
+# target to generate assembly for a file
+8_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/8_4.cpp.s
+.PHONY : 8_4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +237,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 8_1"
 	@echo "... 8_2"
+	@echo "... 8_4"
 	@echo "... 8_1.o"
 	@echo "... 8_1.i"
 	@echo "... 8_1.s"
 	@echo "... 8_2.o"
 	@echo "... 8_2.i"
 	@echo "... 8_2.s"
+	@echo "... 8_4.o"
+	@echo "... 8_4.i"
+	@echo "... 8_4.s"
 .PHONY : help
 
 
