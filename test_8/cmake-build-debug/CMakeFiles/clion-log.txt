@@ -2,6 +2,7 @@
     -- src/8_1.cpp will be compiled to bin/8_1
     -- src/8_2.cpp will be compiled to bin/8_2
     -- src/8_4.cpp will be compiled to bin/8_4
+    -- src/8_5.cpp will be compiled to bin/8_5
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/xjf/CLionProjects/test_8/cmake-build-debug
