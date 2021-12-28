@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/8_1.dir/8_1.cpp.o -o 8_1 
