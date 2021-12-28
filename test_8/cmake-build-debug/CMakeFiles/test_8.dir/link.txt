@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/test_8.dir/8_1.cpp.o -o test_8 
+/usr/bin/g++ -g CMakeFiles/test_8.dir/8_1.cpp.o CMakeFiles/test_8.dir/8_2.cpp.o -o test_8 

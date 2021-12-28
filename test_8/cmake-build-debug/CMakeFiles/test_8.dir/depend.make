@@ -3,3 +3,5 @@
 
 CMakeFiles/test_8.dir/8_1.cpp.o: \
  ../8_1.cpp
+CMakeFiles/test_8.dir/8_2.cpp.o: \
+ ../8_2.cpp

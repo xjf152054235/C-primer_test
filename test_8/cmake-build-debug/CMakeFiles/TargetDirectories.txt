@@ -1,3 +1,4 @@
 /home/xjf/CLionProjects/test_8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xjf/CLionProjects/test_8/cmake-build-debug/CMakeFiles/8_2.dir
 /home/xjf/CLionProjects/test_8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/xjf/CLionProjects/test_8/cmake-build-debug/CMakeFiles/test_8.dir
+/home/xjf/CLionProjects/test_8/cmake-build-debug/CMakeFiles/8_1.dir

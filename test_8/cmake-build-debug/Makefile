@@ -117,24 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_8
+# Target rules for targets named 8_2
 
 # Build rule for target.
-test_8: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_8
-.PHONY : test_8
+8_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_2
+.PHONY : 8_2
 
 # fast build rule for target.
-test_8/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_8.dir/build.make CMakeFiles/test_8.dir/build
-.PHONY : test_8/fast
+8_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/build
+.PHONY : 8_2/fast
+
+#=============================================================================
+# Target rules for targets named 8_1
+
+# Build rule for target.
+8_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 8_1
+.PHONY : 8_1
+
+# fast build rule for target.
+8_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1.dir/build.make CMakeFiles/8_1.dir/build
+.PHONY : 8_1/fast
 
 8_1.o: 8_1.cpp.o
 .PHONY : 8_1.o
 
 # target to build an object file
 8_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_8.dir/build.make CMakeFiles/test_8.dir/8_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1.dir/build.make CMakeFiles/8_1.dir/8_1.cpp.o
 .PHONY : 8_1.cpp.o
 
 8_1.i: 8_1.cpp.i
@@ -142,7 +155,7 @@ test_8/fast:
 
 # target to preprocess a source file
 8_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_8.dir/build.make CMakeFiles/test_8.dir/8_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1.dir/build.make CMakeFiles/8_1.dir/8_1.cpp.i
 .PHONY : 8_1.cpp.i
 
 8_1.s: 8_1.cpp.s
@@ -150,8 +163,32 @@ test_8/fast:
 
 # target to generate assembly for a file
 8_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_8.dir/build.make CMakeFiles/test_8.dir/8_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_1.dir/build.make CMakeFiles/8_1.dir/8_1.cpp.s
 .PHONY : 8_1.cpp.s
+
+8_2.o: 8_2.cpp.o
+.PHONY : 8_2.o
+
+# target to build an object file
+8_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/8_2.cpp.o
+.PHONY : 8_2.cpp.o
+
+8_2.i: 8_2.cpp.i
+.PHONY : 8_2.i
+
+# target to preprocess a source file
+8_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/8_2.cpp.i
+.PHONY : 8_2.cpp.i
+
+8_2.s: 8_2.cpp.s
+.PHONY : 8_2.s
+
+# target to generate assembly for a file
+8_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/8_2.dir/build.make CMakeFiles/8_2.dir/8_2.cpp.s
+.PHONY : 8_2.cpp.s
 
 # Help Target
 help:
@@ -161,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_8"
+	@echo "... 8_1"
+	@echo "... 8_2"
 	@echo "... 8_1.o"
 	@echo "... 8_1.i"
 	@echo "... 8_1.s"
+	@echo "... 8_2.o"
+	@echo "... 8_2.i"
+	@echo "... 8_2.s"
 .PHONY : help
 
 
